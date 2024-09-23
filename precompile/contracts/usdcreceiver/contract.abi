@@ -1,0 +1,29 @@
+[
+    {
+        "inputs": [
+            {
+                "internalType": "bytes32",
+                "name": "sourceBlockchainID",
+                "type": "bytes32"
+            },
+            {
+                "internalType": "address",
+                "name": "originSenderAddress",
+                "type": "address"
+            },
+            {
+                "internalType": "bytes",
+                "name": "message",
+                "type": "bytes"
+            }
+        ],
+        "name": "receiveTeleporterMessage",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "type": "receive",
+        "stateMutability": "payable"
+    }
+]
